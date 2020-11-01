@@ -2,7 +2,7 @@
 
 We have learned during the course that the central quantity in statistical mechanics is the partition function, which is calculated as:
 
-![](https://render.githubusercontent.com/render/math?math=Z=\frac{j=1}^Me^{-\beta\H(\mathbf{x}_j)})
+![](https://render.githubusercontent.com/render/math?math=Z=\sum_{j=1}^Me^{-\beta\H(\mathbf{x}_j)})
 
 The sum in this expression runs over M of the microstates, ![](https://render.githubusercontent.com/render/math?math=x_j), that the system can adopt.  H is the Hamiltonian and ![](https://render.githubusercontent.com/render/math?math=\beta) is the inverse temperature.  In the next few exercises we are going to learn how to compute this quantity using a computer.  Before we get on that, however, we first need to learn how to write a single loop that will generate all the microstates that our system of spins can adopt.
 
